@@ -1,0 +1,4 @@
+name:flutter_client_service
+description: flutter_client服务端
+dependencies:
+  http_server: ^0.9.8+3
