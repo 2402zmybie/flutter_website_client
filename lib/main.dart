@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+import 'app.dart';
 //启动页面
 import 'loading.dart';
 
@@ -10,7 +11,7 @@ void main() => runApp(MaterialApp(
   theme: mDefaultTheme,
   //配置路由
   routes: <String,WidgetBuilder>{
-//    "app": (BuildContext context) => App(),
+    "app": (BuildContext context) => App(),
     "company_info": (BuildContext context) => WebviewScaffold(
       url: 'https://www.baidu.com',
       appBar: AppBar(

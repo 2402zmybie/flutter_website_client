@@ -14,7 +14,7 @@ class _LoadingPageState extends State<LoadingPage> {
     //停顿3秒
     Future.delayed(Duration(seconds: 3), () {
       print('App启动');
-      Navigator.pushReplacementNamed(context, 'company_info');
+      Navigator.pushReplacementNamed(context, 'app');
     });
   }
 
